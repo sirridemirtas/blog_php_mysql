@@ -1,0 +1,17 @@
+# Default Charset
+AddDefaultCharset	utf-8
+
+# Capital of the World
+php_value	date.timezone	"Europe/Istanbul"
+
+# ErrorDocument 404 /json/nf/notfound.php?type=page
+
+# Disable errors
+# php_flag	display_errors	Off
+
+# Disable Directory Browsing
+Options All -Indexes
+
+RewriteEngine on
+
+RewriteRule ^(.*)$ public/$1 [L]

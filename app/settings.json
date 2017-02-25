@@ -1,0 +1,9 @@
+{
+    "site_title": "Ipsum Lorem",
+    "visibility": "enable",
+    "cars": [
+        "Ford",
+        "BMW",
+        "Fiat"
+    ]
+}
